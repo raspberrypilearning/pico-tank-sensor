@@ -6,6 +6,7 @@ Open Thonny and create a new file called `tank_sensor.py`.
 
 --- task ---
 Add code to measure distance using the ultrasonic sensor.
+
 --- code ---
 ---
 language: python
@@ -23,6 +24,7 @@ while True:
     print("Distance:", round(d, 2), "m")
     sleep(0.5)
 --- /code ---
+
 --- /task ---
 
 --- task ---
