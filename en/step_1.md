@@ -1,6 +1,6 @@
-## Tank Water Level Indicator
+## What you will make
 
-This project uses an **HC-SR04P ultrasonic sensor** with a **Raspberry Pi Pico** to detect when a water barrel or bucket is too empty and turn on an **LED warning light**.
+This project uses an **ultrasonic sensor** with a **Raspberry Pi Pico** to detect when a water barrel or bucket is too empty and turn on an **LED warning light**.
 
 ---
 
