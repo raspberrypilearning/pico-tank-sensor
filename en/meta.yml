@@ -5,9 +5,15 @@ listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Step title
+  - title: Build the Tank Sensor
     completion:
       - engaged      
+  - title: Wire the Sensor Circuit
+  - title: Program the Sensor
+  - title: Add the LED Indicator
+    completion:
+      - internal    
+  - title: Code the LED Indicator
   - title: Challenge
     challenge: true
     completion:

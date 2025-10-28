@@ -15,8 +15,8 @@ from time import sleep
 sensor = DistanceSensor(echo=16, trigger=17)
 led = LED(15)
 
-EMPTY_DISTANCE = 0.40   # meters
-HYSTERESIS = 0.02       # meters
+EMPTY_DISTANCE = 0.40   # in meters
+BUFFER = 0.02       # in meters - this allows for movement in the water surface
 
 while True:
     d = sensor.distance
@@ -24,7 +24,7 @@ while True:
 
     if d >= EMPTY_DISTANCE:
         led.on()
-    elif d < (EMPTY_DISTANCE - HYSTERESIS):
+    elif d < (EMPTY_DISTANCE - BUFFER):
         led.off()
 
     sleep(0.5)
@@ -48,5 +48,5 @@ Adjust `EMPTY_DISTANCE` to match your “too empty” water level.
 --- /task ---
 
 --- task ---
-If the LED flickers near the threshold, increase `HYSTERESIS` slightly (for example, 0.03 m).
+If the LED flickers near the threshold, increase `BUFFER` slightly (for example, 0.03 m).
 --- /task ---
