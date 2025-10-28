@@ -1,6 +1,6 @@
-title: Project title in sentence case
+title: Tank water sensor
 hero_image: images/banner.png
-description: A short description of the project
+description: Use an ultrasonic sensor with a Raspberry Pi Pico to detect when a water barrel or bucket is too empty and turn on an LED warning light.
 listed: false
 pdf: false
 steps:
