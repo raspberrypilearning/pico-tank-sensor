@@ -19,23 +19,21 @@ Make sure its pins (VCC, TRIG, ECHO, GND) are accessible and not shorting to eac
 --- /task ---
 
 --- task ---
-Connect **VCC on the HC-SR04P** to **3V3(OUT)** on the Pico (physical pin 36).  
-This powers the ultrasonic sensor with safe 3.3 V.  
-Do not use the 5 V (VBUS) pin.
+Connect **VCC on the HC-SR04P** to **Pin36** on the Pico. This powers the ultrasonic sensor with safe 3.3 V.  
 --- /task ---
 
 --- task ---
-Connect **GND on the HC-SR04P** to **GND** on the Pico (physical pin 38).  
+Connect **GND on the HC-SR04P** to any **GND** on the Pico. 
 This completes the power circuit.
 --- /task ---
 
 --- task ---
-Connect **TRIG on the HC-SR04P** to **GP17** on the Pico (physical pin 22).  
+Connect **TRIG on the HC-SR04P** to **GP17** on the Pico.  
 This pin sends the pulse signal to start a distance measurement.
 --- /task ---
 
 --- task ---
-Connect **ECHO on the HC-SR04P** to **GP16** on the Pico (physical pin 21).  
+Connect **ECHO on the HC-SR04P** to **GP16** on the Pico.  
 This pin receives the signal that returns from the water surface.
 --- /task ---
 
@@ -43,12 +41,12 @@ This pin receives the signal that returns from the water surface.
 Check all connections carefully.  
 Your wiring should now match the table below:
 
-| HC-SR04P Pin | Connect to | Pico Pin Number | Function |
-|---------------|-------------|----------------|-----------|
-| VCC | 3V3(OUT) | 36 | Power (3.3 V) |
-| GND | GND | 38 | Ground |
-| TRIG | GP17 | 22 | Trigger output |
-| ECHO | GP16 | 21 | Echo input |
+| HC-SR04P Pin | Connect to | Function |
+|---------------|-------------|-----------|
+| VCC | 3V3(OUT) | Power (3.3 V) |
+| GND | GND | Ground |
+| TRIG | GP17 | Trigger output |
+| ECHO | GP16 | Echo input |
 --- /task ---
 
 --- task ---

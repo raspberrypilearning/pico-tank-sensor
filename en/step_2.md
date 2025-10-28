@@ -11,6 +11,6 @@ Make sure it stays dry and perpendicular to the water surface for accurate readi
 --- /task ---
 
 --- task ---
-Measure the distance from the sensor to the bottom of the tank.  
+Measure the distance from the sensor to just above the bottom of the tank.  
 You’ll use this to decide when the tank is “too empty”.
 --- /task ---
