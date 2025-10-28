@@ -2,6 +2,7 @@
 
 --- task ---
 Edit your program to include both the sensor and the LED.
+
 --- code ---
 ---
 language: python
@@ -29,6 +30,7 @@ while True:
 
     sleep(0.5)
 --- /code ---
+
 --- /task ---
 
 --- task ---
