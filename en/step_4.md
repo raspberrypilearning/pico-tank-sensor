@@ -17,7 +17,7 @@ line_numbers: true
 from picozero import DistanceSensor
 from time import sleep
 
-sensor = DistanceSensor(echo=16, trigger=17)
+sensor = DistanceSensor(echo=2, trigger=3)
 
 while True:
     d = sensor.distance

@@ -1,63 +1,43 @@
-## Wire the Sensor Circuit
+## Wire the sensor circuit
 
-You will now connect your **HC-SR04P ultrasonic sensor** to the **Raspberry Pi Pico** using jumper wires on a breadboard.
-
-### You will need:
-- Raspberry Pi Pico  
-- HC-SR04P ultrasonic distance sensor (3.3 V logic)  
-- Breadboard  
-- Jumper wires (male-to-male)
+Connect the sensor and relay to the Pico. Keep Echo at 3.3 V logic with a divider.
 
 --- task ---
-Place the Pico on the breadboard.  
-Insert it so that the USB port faces outward and each side of pins sits on a separate breadboard row.
+ 
+Set the Raspberry Pi Pico securely on a breadboard or workspace so you can easily access all pins for wiring.
+![](images/touchless_faucet_0.png){:width="300px"} 
+
 --- /task ---
 
 --- task ---
-Place the HC-SR04P sensor on the breadboard.  
-Make sure its pins (VCC, TRIG, ECHO, GND) are accessible and not shorting to each other.
+Connect the `VCC` pin on the ultrasonic sensor to the 5V rail, and the `GND` pin to the `GND` rail on the breadboard.
+This gives the sensor power to operate.
+![](images/touchless_faucet_1.png){:width="300px"}
 --- /task ---
 
 --- task ---
-Connect **VCC on the HC-SR04P** to **Pin36** on the Pico. This powers the ultrasonic sensor with safe 3.3 V.  
+Use a jumper wire to connect the `TRIG` pin on the sensor to GP3 on the Raspberry Pi Pico.
+This pin sends the “ping” signal that starts the distance measurement.
+![](images/touchless_faucet_2.png){:width="300px"}
 --- /task ---
 
 --- task ---
-Connect **GND on the HC-SR04P** to any **GND** on the Pico. 
-This completes the power circuit.
+To protect the Pico’s input pin from 5 V logic, make a voltage divider on the `ECHO` line.
+Start by connecting a 1 kΩ resistor between the `ECHO` pin on the sensor and `GP2` on the Pico.
+![](images/touchless_faucet_3.png){:width="300px"}
 --- /task ---
 
 --- task ---
-Connect **TRIG on the HC-SR04P** to **GP17** on the Pico.  
-This pin sends the pulse signal to start a distance measurement.
+Next, connect a 470 Ω resistor between the `ECHO` pin and `GND` on the breadboard.
+This lowers the signal to a safe level (about 3.3 V) for the Pico’s input.
+![](images/touchless_faucet_4.png){:width="300px"}
 --- /task ---
 
 --- task ---
-Connect **ECHO on the HC-SR04P** to **GP16** on the Pico.  
-This pin receives the signal that returns from the water surface.
---- /task ---
+Double-check your connections:
 
---- task ---
-Check all connections carefully.  
-Your wiring should now match the table below:
+- The 1 kΩ resistor should run from ECHO → GP2.
+- The 470 Ω resistor should run from ECHO → GND.
+- There should be no loose wires or crossed connections.
 
-| HC-SR04P Pin | Connect to | Function |
-|---------------|-------------|-----------|
-| VCC | 3V3(OUT) | Power (3.3 V) |
-| GND | GND | Ground |
-| TRIG | GP17 | Trigger output |
-| ECHO | GP16 | Echo input |
---- /task ---
-
---- task ---
-Inspect for safety.  
-- Ensure all wires are firm and straight.  
-- No bare wires should touch each other.  
-- The HC-SR04P works directly with 3.3 V logic, so no voltage divider is needed.
---- /task ---
-
---- task ---
-Optional quick test:  
-Plug in your Pico.  
-If everything is connected correctly, the sensor’s small onboard LED should light up, showing it has power.
 --- /task ---
