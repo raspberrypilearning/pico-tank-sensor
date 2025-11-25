@@ -30,8 +30,9 @@ This pin sends the “ping” signal that starts the distance measurement.
 --- /task ---
 
 --- task ---
-To protect the Pico’s input pin from 5 V logic, make a voltage divider on the `ECHO` line.
-Start by connecting a 1 kΩ resistor between the `ECHO` pin on the sensor and `GP2` on the Pico.
+To protect the Pico’s input pin from the 5V circuit, make a voltage divider on the `ECHO` line:
+
+Start by connecting a 1kΩ resistor between the `ECHO` pin on the sensor and `GP2` on the Pico.
 ![Raspberry Pi Pico H on breadboard with HC-SR04 sensor and one resistor connected to ground rail.](images/touchless_faucet_3.png){:width="300px"}
 --- /task ---
 
