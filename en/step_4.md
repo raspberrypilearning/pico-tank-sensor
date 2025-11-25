@@ -29,7 +29,7 @@ while True:
 
 --- task ---
 Click **Run**.  
-Move your hand above the sensor — the distance values should change.
+Move your hand below the sensor — the distance values should change.
 --- /task ---
 
 --- task ---

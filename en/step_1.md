@@ -4,12 +4,12 @@ This project uses an **ultrasonic sensor** with a **Raspberry Pi Pico** to detec
 
 ---
 
-### You will need
-- Raspberry Pi Pico (MicroPython installed)
-- HC-SR04 ultrasonic distance sensor
-- 1 × LED  
-- 1 × 470Ω resistor
-- 1 × 1kΩ resistor  
-- Breadboard and jumper wires  
-- USB cable for Pico  
-- Barrel, bucket, or small tank of water  
+### You will need:
+- **Raspberry Pi Pico** — microcontroller for running the system
+- **Ultrasonic Distance Sensor (HC-SR04)** — detects surface distance
+- **USB Power (5 V)** — to power the Pico
+- **Breadboard and jumper wires** — for temporary circuit assembly
+- **LED** - to tell you when the tank needs filling
+- **470Ω resistor**
+- **1kΩ resistor**  
+- Barrel, bucket, or small tank of water

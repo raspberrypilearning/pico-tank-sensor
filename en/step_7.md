@@ -10,9 +10,13 @@ Show the water level using two LEDs (green = OK, red = empty).
 --- /task ---
 
 --- task ---
-Add a small display (like an OLED) to show the exact distance.
+Add a small display (like an OLED) to show the exact distance, or a 'percentage full'.
 --- /task ---
 
 --- task ---
-Upgrade: Use a relay to automatically start a pump when the tank is low.
+If the LED flickers near the switching point, add a small delay or buffer value to smooth it out.
+--- /task ---
+
+--- task ---
+[Upgrade:](https://projects.raspberrypi.org/en/projects/touch-free-tap){:target="_blank"} Use a relay, a power supply and a submersible pump to automatically refill it when the tank is low.
 --- /task ---
