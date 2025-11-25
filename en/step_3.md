@@ -5,7 +5,15 @@ Connect the sensor and relay to the Pico. Keep Echo at 3.3 V logic with a divide
 --- task ---
  
 Set the Raspberry Pi Pico securely on a breadboard or workspace so you can easily access all pins for wiring.
-![](images/touchless_faucet_0.png){:width="300px"} 
+
+![A Raspberry Pi Pico H mounted into a breadboard, aligned with the top row](images/pico_breadboard.png){:width="300px"} 
+
+--- /task ---
+
+--- task ---
+
+Connect the `VBUS` pin to the Power rail on the edge of your breadboard, and any `GND` pin to the ground rail on your breadboard. This will allow multiple devices to use the power supplied by your power supply. 
+![Raspberry Pi Pico H on breadboard with power rails connected by red and black jumper wires.](images/touchless_faucet_0.png){:width="300px"}
 
 --- /task ---
 
