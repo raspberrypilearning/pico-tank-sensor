@@ -33,6 +33,8 @@ Move your hand below the sensor — the distance values should change.
 --- /task ---
 
 --- task ---
-Note the distance when the tank is full and when it is empty.  
-This helps set your threshold in the next step.
+Note the distance from the sensor when the tank is empty.  
+This will help set your threshold in the next step.
+![Ultrasonic sensor measuring variable distance above a water-filled tank.](images/tank-sensor1.png){:width="300px"} 
+
 --- /task ---
