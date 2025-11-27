@@ -45,7 +45,7 @@ If your LED doesn't light:
 
 --- task ---
 
-Move the jumper wire connected to the resistor from `Pin 1` to `Pin 14` on the Pico; this pin will control the LED signal.
+Move the jumper wire connected to the resistor from `Pin 36` to `Pin 14` on the Pico; this pin will control the LED signal.
 ![Breadboard circuit showing Raspberry Pi Pico H connected to an HC-SR04 ultrasonic sensor, with a brown jumper linking the LED to pin 14](images/tank-sensor5.png)
 
 --- /task ---
