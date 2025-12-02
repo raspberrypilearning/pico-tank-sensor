@@ -39,7 +39,7 @@ Move your hand below the sensor — the distance values should change.
 
 ---
 
-title: TypeError: can't convert NoneType to float
+title: TypeError -  can't convert NoneType to float
 
 ---
 
