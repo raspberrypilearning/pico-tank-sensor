@@ -57,6 +57,9 @@ Check these things:
 
 --- /collapse ---
 
+
+![](images/UDS_distance.gif)
+
 --- /task ---
 
 --- task ---
