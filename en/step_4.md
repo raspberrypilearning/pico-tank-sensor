@@ -1,8 +1,6 @@
 ## Measure distance with PicoZero
 
-To program the Raspberry Pi Pico, you will need the [Thonny IDE](http://thonny.org/){:target="_blank"} and MicroPython packages installed. 
-
-[Instructions for this process are available here.](https://learning-admin.raspberrypi.org/en/projects/getting-started-with-the-pico/2){:target="_blank"}  
+To program the Raspberry Pi Pico, you will need the [Thonny IDE](http://thonny.org/){:target="_blank"} and MicroPython packages installed. [Instructions for this process are available here.](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/2){:target="_blank"}   
 
 --- task ---
 Open Thonny and create a new file called `tank_sensor.py`.
@@ -62,9 +60,4 @@ Check these things:
 
 --- /task ---
 
---- task ---
-Note the distance from the sensor when the tank is empty.  
-This will help set your threshold in the next step.
-![Ultrasonic sensor measuring variable distance above an empty tank](images/empty-tank.png){:width="300px"} 
 
---- /task ---

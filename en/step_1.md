@@ -15,6 +15,4 @@ This project uses an **ultrasonic sensor** with a **Raspberry Pi Pico** to detec
 - Barrel, bucket, or small tank of water
 
 
-To program the Raspberry Pi Pico, you will also need the [Thonny IDE](http://thonny.org/){:target="_blank"} and MicroPython packages installed. 
-
-[Instructions for this process are available here.](https://learning-admin.raspberrypi.org/en/projects/getting-started-with-the-pico/2){:target="_blank"}  
+To program the Raspberry Pi Pico, you will also need the [Thonny IDE](http://thonny.org/){:target="_blank"} and MicroPython packages installed. [Instructions for this process are available here.](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/2){:target="_blank"}  

@@ -3,6 +3,13 @@
 Edit your program so it can use both the **distance sensor** and an **LED** to show when the bucket is too empty.
 
 --- task ---
+Note the distance from the sensor when the tank is empty.  
+This will help set your 'empty' distance threshold. The example code uses a distance of 30cm.
+![Ultrasonic sensor measuring variable distance above an empty tank](images/empty-tank.png){:width="300px"} 
+
+--- /task ---
+
+--- task ---
 
 Add the `LED` class to the imports in your code, so the Pico can control it:
 
