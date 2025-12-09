@@ -24,7 +24,7 @@ This gives the sensor power to operate.
 --- /task ---
 
 --- task ---
-Use a jumper wire to connect the `TRIG` pin on the sensor to GP3 on the Raspberry Pi Pico.
+Use a jumper wire to connect the `TRIG` pin on the sensor to `GP3` on the Raspberry Pi Pico.
 This pin sends the “ping” signal that starts the distance measurement.
 ![Raspberry Pi Pico H on breadboard with red, black, and blue jumper wires connected to HC-SR04 sensor.](images/touchless_faucet_2.png){:width="300px"}
 --- /task ---

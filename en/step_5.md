@@ -28,7 +28,7 @@ Attach the longer leg of the LED to one end of a **220 Ω resistor**; this resis
 
 --- task ---
 
-Use a jumper wire to connect the resistor to `3V3(OUT)` (Pin 36) to make sure that the LED lights up. This pin is always putting out 3V.
+Use a jumper wire to connect the resistor to `3V3(OUT)` (GP36) to make sure that the LED lights up. This pin is always putting out 3V.
 ![Breadboard circuit showing Raspberry Pi Pico H connected to an HC-SR04 ultrasonic sensor, with a brown jumper linking the LED to pin 36](images/tank-sensor6.png){:width="300px"} 
 
 --- /task ---
@@ -37,7 +37,6 @@ Use a jumper wire to connect the resistor to `3V3(OUT)` (Pin 36) to make sure th
 
 If your LED doesn't light:
 - Check you have the LED's long leg connected to the resistor and the short leg connected to GND; LEDs only work one way around.
-- Check your LED is not damaged
 - Ensure the LED and resistor wiring do not interfere with the sensor circuit and that no components are shorted.
 - Replace the LED and check again.
 
@@ -45,7 +44,7 @@ If your LED doesn't light:
 
 --- task ---
 
-Move the jumper wire connected to the resistor from `Pin 36` to `Pin 14` on the Pico; this pin will control the LED signal.
+Move the jumper wire connected to the resistor from `GP36` to `GP15` on the Pico; this pin will control the LED signal.
 ![Breadboard circuit showing Raspberry Pi Pico H connected to an HC-SR04 ultrasonic sensor, with a brown jumper linking the LED to pin 14](images/tank-sensor5.png){:width="300px"} 
 
 --- /task ---

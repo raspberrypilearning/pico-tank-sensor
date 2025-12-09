@@ -57,7 +57,7 @@ while True:
 --- /task ---
 
 --- task ---
-Inside the loop, add an `if` statement to turn the LED **on** when the distance is more than 30 cm (0.30 m) and **off** otherwise.
+Inside the loop, turn the LED **on** when the distance is more than 30 cm (0.30 m) and **off** otherwise.
 
 --- code ---
 ---
@@ -83,7 +83,7 @@ while True:
 
 --- task ---
 Click **Run** to test your program.  
-Move an object or the water surface closer or farther from the sensor to see the LED turn on when the distance exceeds 30 cm, and off when it’s nearer.
+Move an object or the water surface closer or further away from the sensor to see the LED turn on when the distance exceeds 30 cm, and off when it’s nearer.
 --- /task ---
 
 ### Test and Calibrate
@@ -94,7 +94,7 @@ Observe when the LED turns on as the water level changes.
 --- /task ---
 
 --- task ---
-If needed, adjust the **threshold** (for example, change ` if d>= 0.30` to `0.35` m or `0.25` m) to match the “too low” water level in your tank.
+If needed, adjust the **threshold** (for example, change `if d>= 0.30` to `0.35` m or `0.25` m) to match the “too low” water level in your tank.
 --- /task ---
 
 
