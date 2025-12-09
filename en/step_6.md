@@ -94,7 +94,7 @@ Observe when the LED turns on as the water level changes.
 --- /task ---
 
 --- task ---
-If needed, adjust the **threshold** (for example, change `if d>= 0.30` to `0.35` m or `0.25` m) to match the “too low” water level in your tank.
+If needed, adjust the **threshold** (for example, change `if d>= 0.30` to `0.35`m or `0.25`m) to match the “too low” water level in your tank.
 --- /task ---
 
 
