@@ -76,7 +76,7 @@ while True:
     else:
         led.off()
 
-    sleep(0.5)
+    sleep(0.5)          # check every 0.5 seconds
 --- /code ---
 
 --- /task ---

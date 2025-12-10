@@ -16,15 +16,15 @@ filename: tank_sensor.py
 line_numbers: true
 ---
 
-from picozero import DistanceSensor
-from time import sleep
+from picozero import DistanceSensor     # import sensor class
+from time import sleep                  # import delay function
 
-sensor = DistanceSensor(echo=2, trigger=3)
+sensor = DistanceSensor(echo=2, trigger=3)  # initialise sensor on pins 2 & 3
 
-while True:
-    d = sensor.distance
-    print("Distance:", round(d, 2), "m")
-    sleep(0.5)
+while True:                                  # repeat forever
+    print(round(sensor.distance, 2), "m")     # show distance in metres
+    sleep(0.5)                                # short pause
+
 --- /code ---
 
 --- /task ---
