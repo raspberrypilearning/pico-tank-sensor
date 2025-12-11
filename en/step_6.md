@@ -21,15 +21,14 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 1
 ---
-from picozero import DistanceSensor, LED
-from time import sleep
+from picozero import DistanceSensor, LED      # import LED class too
+from time import sleep                        # import delay function
 
-sensor = DistanceSensor(echo=14, trigger=15)
+sensor = DistanceSensor(echo=14, trigger=15)  # initialise sensor on GP 14 & 15
 
-while True:
-    d = sensor.distance
-    print("Distance:", round(d, 2), "m")
-    sleep(0.5)
+while True:                                   # repeat forever
+    print(round(sensor.distance, 2), "m")     # show distance in metres
+    sleep(0.5)                                # short pause
 --- /code ---
 
 --- /task ---
@@ -45,13 +44,13 @@ line_numbers: true
 line_number_start: 4
 line_highlights: 5
 ---
-sensor = DistanceSensor(echo=14, trigger=15)
-led = LED(13)
+sensor = DistanceSensor(echo=14, trigger=15)    # initialise sensor on GP 14 & 15
+led = LED(13)                                   # initialise LED on GP 13
 
-while True:
-    d = sensor.distance
-    print("Distance:", round(d, 2), "m")
-    sleep(0.5)
+while True:                                   # repeat forever
+    d = sensor.distance                       # set 'd' to sensor measurement value
+    print("Distance:", round(d, 2), "m")      # show distance in metres
+    sleep(0.5)                                # check every 0.5 seconds
 --- /code ---
 
 --- /task ---
@@ -67,16 +66,16 @@ line_numbers: true
 line_number_start: 7
 line_highlights: 11-14
 ---
-while True:
-    d = sensor.distance
-    print("Distance:", round(d, 2), "m")
+while True:                                   # repeat forever
+    d = sensor.distance                       # set 'd' to sensor measurement value
+    print("Distance:", round(d, 2), "m")      # show distance in metres
 
     if d >= 0.30:      # Greater than 30 cm
-        led.on()
+        led.on()       # Turn LED on
     else:
-        led.off()
+        led.off()      # Turn LED on
 
-    sleep(0.5)          # check every 0.5 seconds
+    sleep(0.5)         # check every 0.5 seconds
 --- /code ---
 
 --- /task ---
