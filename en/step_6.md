@@ -24,7 +24,7 @@ line_highlights: 1
 from picozero import DistanceSensor, LED
 from time import sleep
 
-sensor = DistanceSensor(echo=2, trigger=3)
+sensor = DistanceSensor(echo=14, trigger=15)
 
 while True:
     d = sensor.distance
@@ -35,7 +35,7 @@ while True:
 --- /task ---
 
 --- task ---
-Add a new line below your sensor definition to create the LED on **Pin 15**.
+Add a new line below your sensor definition to create the LED on **Pin 13**.
 
 --- code ---
 ---
@@ -45,8 +45,8 @@ line_numbers: true
 line_number_start: 4
 line_highlights: 5
 ---
-sensor = DistanceSensor(echo=2, trigger=3)
-led = LED(15)
+sensor = DistanceSensor(echo=14, trigger=15)
+led = LED(13)
 
 while True:
     d = sensor.distance
