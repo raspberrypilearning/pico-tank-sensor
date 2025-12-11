@@ -45,8 +45,8 @@ This lowers the signal to a safe level (about 3.3 V) for the Pico’s input.
 --- task ---
 Double-check your connections:
 
-- The 1 kΩ resistor should run from ECHO → GP2.
-- The 470 Ω resistor should run from ECHO → GND.
+- The 1kΩ resistor should run from ECHO → GP2.
+- The 2kΩ resistor should run from ECHO → GND.
 - There should be no loose wires or crossed connections.
 
 --- /task ---
