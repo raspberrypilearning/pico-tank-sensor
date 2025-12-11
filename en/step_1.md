@@ -10,8 +10,7 @@ This project uses an **ultrasonic sensor** with a **Raspberry Pi Pico** to detec
 - **USB Power (5 V)** — to power the Pico
 - **Breadboard and jumper wires** — for temporary circuit assembly
 - **LED** - to tell you when the tank needs filling
-- **470Ω resistor**
-- **1kΩ resistor**  
+- **2 resistors (1kΩ and 2kΩ)** — for the ECHO pin voltage divider
 - Barrel, bucket, or small tank of water
 
 
