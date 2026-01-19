@@ -9,7 +9,7 @@ steps:
     completion:
       - engaged      
   - title: Wire the sensor circuit
-  - title: Measure distance with picosero
+  - title: Measure distance with picozero
   - title: Add the LED indicator
     completion:
       - internal    
