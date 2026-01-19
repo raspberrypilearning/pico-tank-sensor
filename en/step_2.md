@@ -1,21 +1,21 @@
-## Mount the Tank Sensor
+## Mount the distance sensor
 
 --- task ---
-Place the **ultrasonic sensor** above your water container so it faces straight down toward the surface.
+Position the **ultrasonic sensor** above your water tank so it faces straight down towards the surface.
 
-Keep the sensor at least 5 cm above the maximum water level.
+Keep the sensor at least 5cm above the maximum water level.
 
-![Ultrasonic sensor measuring distance of 5 cm above a water surface.](images/tank-sensor0.png){:width="300px"} 
+![An ultrasonic sensor measuring the distance from 5cm above a water surface.](images/tank-sensor0.png){:width="300px"} 
 --- /task ---
 
 --- task ---
-Fix the sensor using tape, a clip, or a small bracket.  
-Make sure it stays dry and perpendicular to the water surface for accurate readings.
+Secure the sensor using tape, a clip, or a small bracket.
+
+Make sure it stays dry and perpendicular to the water surface to ensure your readings are accurate.
 --- /task ---
 
 --- task ---
-Measure the distance from the sensor to just above the bottom of the tank.  
-You’ll use this to decide when the tank is “too empty”.
+Measure the distance from the sensor to just above the bottom of the tank. You will use this measurement to determine when the tank is 'too empty'.
 
-![Ultrasonic sensor measuring variable distance above a water-filled tank.](images/tank-sensor1.png){:width="300px"} 
+![An ultrasonic sensor measuring the distance from above a water-filled tank.](images/tank-sensor1.png){:width="300px"} 
 --- /task ---

@@ -1,19 +1,19 @@
 title: Water tank sensor
 hero_image: images/banner.png
-description: Use an ultrasonic sensor with a Raspberry Pi Pico to detect when a water barrel or bucket is too empty and turn on an LED warning light.
+description: Use an ultrasonic sensor with a Raspberry Pi Pico to detect when a water tank is too empty and turn on an LED warning light
 listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Build the Tank Sensor
+  - title: Mount the distance sensor
     completion:
       - engaged      
-  - title: Wire the Sensor Circuit
-  - title: Measure distance with PicoZero
-  - title: Add the LED Indicator
+  - title: Wire the sensor circuit
+  - title: Measure distance with picosero
+  - title: Add the LED indicator
     completion:
       - internal    
-  - title: Code the LED Indicator
+  - title: Code the LED indicator
   - title: Challenge
     challenge: true
     completion:
