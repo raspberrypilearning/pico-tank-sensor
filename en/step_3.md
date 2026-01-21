@@ -4,7 +4,7 @@ Connect the sensor to the Raspberry Pi Pico. Use a divider to keep **ECHO** at 3
 
 --- task ---
  
-Set your Raspberry Pi Pico securely on a breadboard or workspace so you can easily access all the pins for wiring.
+Set your Raspberry Pi Pico securely on a breadboard or workspace so that you can easily access all the pins for wiring.
 
 ![A Raspberry Pi Pico H mounted into a breadboard, aligned with the top row.](images/pico_breadboard.png){:width="300px"} 
 

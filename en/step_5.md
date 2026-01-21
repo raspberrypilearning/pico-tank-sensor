@@ -23,8 +23,8 @@ Then, connect the other end of the resistor to the ground rail on your breadboar
 
 --- task ---
 
-Use a jumper wire to connect the long leg of your LED to **3V3(OUT) (GP36)** to check that the LED lights up. This pin always puts out 3V.
-![A jumper wire has been added between the long leg of the LED and GP36.](images/tank-sensor6.png){:width="300px"} 
+Use a jumper wire to connect the long leg of your LED to **3V3(OUT)** (pin **36**) to check that the LED lights up. This pin always puts out 3V.
+![A jumper wire has been added between the long leg of the LED and pin 36.](images/tank-sensor6.png){:width="300px"} 
 
 --- /task ---
 
@@ -39,7 +39,7 @@ If your LED does not light:
 
 --- task ---
 
-Move the jumper wire connected to the LED from **GP36** to **GP13**. This pin will control the LED signal.
+Move the jumper wire connected to the LED from pin **36** to **GP13**. This pin will control the LED signal.
 ![The jumper wire connected to the long leg of the LED has been moved to GP13.](images/tank-sensor5.png){:width="300px"} 
 
 --- /task ---
