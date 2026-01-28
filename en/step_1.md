@@ -1,45 +1,17 @@
 ## What you will make
-OR
-## What you will do - change meta if you use this
 
-A brief description - one or two sentences. 
+This project uses an **ultrasonic sensor** with a **Raspberry Pi Pico** to detect when a water barrel or bucket is too empty and turn on an **LED warning light**.
 
---- print-only ---
-
-![ALT TEXT](images/IMAGE.png)
-
---- /print-only ---
-
---- no-print ---
-
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
-
---- /no-print ---
-
---- no-print ---
-
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
-
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
-</div>
-
---- /no-print ---
+---
 
 ### You will need:
-- a
-- b
-- c
+- **Raspberry Pi Pico** — microcontroller for running the system
+- **Ultrasonic Distance Sensor (HC-SR04)** — detects surface distance
+- **USB Power (5 V)** — to power the Pico
+- **Breadboard and jumper wires** — for temporary circuit assembly
+- **LED** - to tell you when the tank needs filling
+- **2 resistors (1kΩ and 2kΩ)** — for the ECHO pin voltage divider
+- Barrel, bucket, or small tank of water
+
+
+To program the Raspberry Pi Pico, you will also need the [Thonny IDE](http://thonny.org/){:target="_blank"} and MicroPython packages installed. [Instructions for this process are available here.](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/2){:target="_blank"}  

@@ -1,13 +1,19 @@
-title: Project title in sentence case
+title: Water tank sensor
 hero_image: images/banner.png
-description: A short description of the project
+description: Use an ultrasonic sensor with a Raspberry Pi Pico to detect when a water tank is too empty and turn on an LED warning light
 listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Step title
+  - title: Mount the distance sensor
     completion:
       - engaged      
+  - title: Wire the sensor circuit
+  - title: Measure distance with picozero
+  - title: Add the LED indicator
+    completion:
+      - internal    
+  - title: Code the LED indicator
   - title: Challenge
     challenge: true
     completion:
