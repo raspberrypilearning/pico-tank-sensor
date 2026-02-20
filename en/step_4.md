@@ -21,9 +21,10 @@ from time import sleep                  # import delay function
 
 sensor = DistanceSensor(echo=14, trigger=15)  # initialise sensor on GP14 and 15
 
-while True:                                  # repeat forever
-    print(round(sensor.distance, 2), "m")     # show distance in metres
-    sleep(0.5)                                # check every 0.5 seconds
+while True:                                   
+    d = sensor.distance                       # set 'd' to sensor measurement value
+    print("Distance:", round(d, 2), "m")      # show distance in metres with nice text
+    sleep(0.5)                                 # check every 0.5 seconds
 
 --- /code ---
 

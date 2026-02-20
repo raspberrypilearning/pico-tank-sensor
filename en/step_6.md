@@ -21,13 +21,14 @@ line_number_start: 1
 line_highlights: 1
 ---
 from picozero import DistanceSensor, LED      # import LED class too
-from time import sleep                        # import delay function
+from time import sleep                        
 
-sensor = DistanceSensor(echo=14, trigger=15)  # initialise sensor on GP14 and 15
+sensor = DistanceSensor(echo=14, trigger=15)  
 
-while True:                                   # repeat forever
-    print(round(sensor.distance, 2), "m")     # show distance in metres
-    sleep(0.5)                                # short pause
+while True:                                   
+    d = sensor.distance                       
+    print("Distance:", round(d, 2), "m")      
+    sleep(0.5)  
 --- /code ---
 
 --- /task ---
@@ -43,13 +44,13 @@ line_numbers: true
 line_number_start: 4
 line_highlights: 5
 ---
-sensor = DistanceSensor(echo=14, trigger=15)    # initialise sensor on GP14 and 15
+sensor = DistanceSensor(echo=14, trigger=15)    
 led = LED(13)                                   # initialise LED on GP13
 
-while True:                                   # repeat forever
-    d = sensor.distance                       # set 'd' to sensor measurement value
-    print("Distance:", round(d, 2), "m")      # show distance in metres
-    sleep(0.5)                                # check every 0.5 seconds
+while True:                                   
+    d = sensor.distance                       
+    print("Distance:", round(d, 2), "m")      
+    sleep(0.5)                                
 --- /code ---
 
 --- /task ---
@@ -65,16 +66,16 @@ line_numbers: true
 line_number_start: 7
 line_highlights: 11-14
 ---
-while True:                                   # repeat forever
-    d = sensor.distance                       # set 'd' to sensor measurement value
-    print("Distance:", round(d, 2), "m")      # show distance in metres
+while True:                                   
+    d = sensor.distance                       
+    print("Distance:", round(d, 2), "m")      
 
     if d >= 0.30:      # 30cm or more
         led.on()       # turn LED on
     else:
         led.off()      # turn LED off
 
-    sleep(0.5)         # check every 0.5 seconds
+    sleep(0.5)         
 --- /code ---
 
 --- /task ---

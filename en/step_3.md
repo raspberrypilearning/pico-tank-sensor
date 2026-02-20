@@ -24,14 +24,14 @@ Connect the **VCC** pin on the ultrasonic sensor to the power rail on the breadb
 --- /task ---
 
 --- task ---
-Use a jumper wire to connect the **TRIG** pin on the sensor to **GP3** on the Raspberry Pi Pico. This pin will send the signal that will start a distance measurement.
+Use a jumper wire to connect the **TRIG** pin on the sensor to **GP15** on the Raspberry Pi Pico. This pin will send the signal that will start a distance measurement.
 ![The TRIG pin on the sensor has been connected to GP3 on the Raspberry Pi Pico with a jumper wire.](images/touchless_faucet_2.png){:width="300px"}
 --- /task ---
 
 --- task ---
 To protect the Raspberry Pi Pico's input pin from the 5V circuit, make a voltage divider on the **ECHO** line.
 
-First, connect a 1kΩ resistor between the **ECHO** pin on the sensor and **GP2** on the Raspberry Pi Pico.
+First, connect a 1kΩ resistor between the **ECHO** pin on the sensor and **GP14** on the Raspberry Pi Pico.
 ![A resistor has been connected between the ECHO pin and GP2 with a jumper wire.](images/touchless_faucet_3.png){:width="300px"}
 --- /task ---
 
@@ -43,7 +43,7 @@ Next, connect a 2kΩ resistor between the **ECHO** pin and ground on the breadbo
 --- task ---
 Double-check your connections:
 
-- The 1kΩ resistor should run from **ECHO** to **GP2**
+- The 1kΩ resistor should run from **ECHO** to **GP14**
 - The 2kΩ resistor should run from **ECHO** to ground
 - There should be no loose wires or crossed connections
 

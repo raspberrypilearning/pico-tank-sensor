@@ -31,7 +31,7 @@ Use a jumper wire to connect the long leg of your LED to **3V3(OUT)** (pin **36*
 --- task ---
 
 If your LED does not light:
-- Check that you have connected the LED's long leg to the resistor and its short leg to the ground rail — LEDs only work one way around
+- Check that you have connected the LED's long leg to the Pin and its short leg to the ground rail — LEDs only work one way around
 - Check that the LED and resistor wiring are not interfering with the sensor circuit and that no components are shorted
 - Replace the LED and check again
 
